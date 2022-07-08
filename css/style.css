@@ -159,6 +159,10 @@ nav {
     display: none;
 }
 
+.divider{
+    display: none;
+}
+
 .btn {
     padding: 0.95rem 1rem;
     border: 1px solid var(--white);
@@ -276,6 +280,10 @@ footer .nav-list li a {
     color: var(--white);
 }
 
+footer .nav-list a:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width:992px) {
     body {
         text-align: center;
@@ -309,6 +317,12 @@ footer .nav-list li a {
     }
     .nav-item a {
         color: var(--very-dark-desaturated-blue);
+    }
+    
+    .divider{
+        display: block;
+        width: 100%;
+        border: 1px solid var(--very-dark-desaturated-blue-transparent);
     }
     .nav-item:hover {
         text-decoration: none;
